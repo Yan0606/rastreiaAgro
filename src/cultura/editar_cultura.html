@@ -1,0 +1,14 @@
+
+<h3>Editar cultura  </h3>
+<form action="/cultura/editar" method="post">
+    <input type="hidden" class="form-control" id="id" name="id" placeholder="ID" value="{id}" >
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome da Cultura</label>
+        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome da cultura" value="{nome}">
+    </div>
+    <div class="mb-3">
+        <label for="tempo" class="form-label">Tempo de produção</label>
+        <input type="text" class="form-control" id="tempo" name="tempo" placeholder="tempo" value="{tempo}">
+    </div>
+    <button type="submit" class="btn btn-warning">Alterar</button>
+</form>
