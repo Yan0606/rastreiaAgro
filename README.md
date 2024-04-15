@@ -6,42 +6,42 @@
     </a>
 </div>
 
-Este é um repositório GitHub para um projeto desenvolvido em Node.js e Firebase. O projeto tem como objetivo realizar operações básicas de CRUD (Criar, Ler, Atualizar e Deletar) em um banco de dados. As entidades principais do banco de dados são Agricultor, Cultura, Máquina, Produto e Propriedade.
+This is a GitHub repository for a project developed on Node.js and Firebase. The project aims to perform basic CRUD (Create, Read, Update and Delete) operations on a database. The main entities in the database are Farmer, Crop, Machine, Product, and Property.
 
-## Funcionalidades
-- Registro de dados para Agricultor, Cultura, Máquina, Produto e Propriedade.
-- Atualização de dados existentes.
-- Exclusão de registros.
+## Features
+- Data logging for Farmer, Crop, Machine, Product and Property.
+- Updating existing data.
+- Deletion of records.
   
-## Pré-requisitos
-Para executar o projeto localmente, você precisará ter:
+## Prerequisites
+To run the project locally, you'll need to have:
 - Node.js
-- Conta no Firebase
-- Visual Studio Code (ou qualquer editor de código de sua preferência)
+- Firebase account
+- Visual Studio Code (or any code editor you prefer)
 
-## Instruções para Execução
-1. Clone o repositório para sua máquina local:
+## Execution Instructions
+1. Clone the repository to your local machine:
   ```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 ````
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
   ```bash
 cd nome-do-repositorio
 ````
 
-3. Instale as dependências do projeto:
+3. Install the project dependencies:
   ```bash
 npm install
 ```
 
-4. Configure suas credenciais do Firebase:
-Certifique-se de ter um arquivo \`serviceAccountKey.json\` com as credenciais do seu projeto Firebase. Você pode obtê-lo na sua conta Firebase Console.
+4. Set up your Firebase credentials:
+Make sure you have a 'serviceAccountKey.json' file with your Firebase project credentials. You can get it from your Firebase Console account.
 
 
-5. Execute o projeto:
+5. Run the project:
   ```bash
 node app.js
 ````
 
-Isso iniciará o servidor localmente e você poderá acessar as funcionalidades CRUD através das rotas definidas no projeto.
+This will start the server locally, and you will be able to access the CRUD functionalities through the routes defined in the project.
